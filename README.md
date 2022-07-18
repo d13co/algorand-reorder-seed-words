@@ -8,6 +8,10 @@ A script to fix simple human errors in writing down seed phrases for Algorand.
 
 Tests seed phrases by swapping each word with each other, and then moving each word to all possible positions.
 
+## Requirements
+
+node & npm. Find out how to install these on your platform [here](https://nodejs.org/).
+
 ## Usage
 
 ```
@@ -16,10 +20,6 @@ cd algorand-reorder-seed-words
 npm install
 node index.js your 25 seed words here
 ```
-
-## Requirements
-
-node & npm. Find out how to install these on your platform [here](https://nodejs.org/).
 
 ## Security & Dependencies
 
