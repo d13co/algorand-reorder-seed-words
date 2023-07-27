@@ -4,7 +4,10 @@ import { swapWords, moveWord } from './util.js';
 let log = true;
 
 export function run(seed, _log = true) {
-  return runTranspose(seed, _log) ?? runMove(seed, _log);
+  const transposed = runTranspose(seed, _log)
+  if (transposed)
+    return transposed;
+  return runMove(seed, _log);
 }
 
 function runMove(seed, _log = true) {
