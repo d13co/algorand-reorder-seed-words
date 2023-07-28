@@ -15,7 +15,7 @@ node & npm. Find out how to install these on your platform [here](https://nodejs
 ## Usage
 
 ```
-git clone git@github.com:d13co/algorand-reorder-seed-words.git
+git clone https://github.com/d13co/algorand-reorder-seed-words.git
 cd algorand-reorder-seed-words
 npm install
 node index.js your 25 seed words here
